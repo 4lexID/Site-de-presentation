@@ -1,0 +1,84 @@
+/* Police */
+*{
+    font-family: Arial, serif;
+    font-size: 106%;
+}
+h1{
+
+    font-size: 200%;
+}
+h2{
+    font-size: 150%;
+}
+/* Photo */
+.photoDemoi{
+    float: right;
+    clear: both;
+    margin-right: 20px;
+}
+
+/* Style des onglets */
+.onglet {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  .onglet button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  .onglet button:hover {
+    background-color: #ddd;
+  }
+  
+  .onglet button.active {
+    background-color: #ccc;
+  }
+  
+  .contenuOnglet {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+/* Alignement texte/image dans Home */
+.clearfix {
+    overflow: auto;
+}
+.image1{
+    float: right;
+    clear: both;
+}
+.image2{
+    float: left;
+    clear: both;
+}
+body{
+    background-color: #a1cfe0;
+    color: black;
+}
+.contenuOnglet{
+    background-color: white;
+    color: black;
+}
+
+/* Couleur liens */
+a:visited{
+    color: blue;
+}
+a{
+    text-decoration: none; 
+}
+
+/* Soulignage footer */
+.footer{
+    text-decoration: underline;
+}
