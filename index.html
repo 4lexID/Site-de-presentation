@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/page.js"></script>
+        <title>Site de présentation</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="liseret">
+                <p><a href="https://www.linkedin.com/in/alexis-delattre-b43093147"><img src="../outils/photoDemoi.png" class="photoDemoi" alt="Moi" title="https://www.linkedin.com/in/alexis-delattre-b43093147" /></a></p>
+                <h1>Site de présentation/démonstration</h1>
+                <h1>Alexis Delattre</h1>
+                <h2>En recherche d'une entreprise pour alternance OpenClassrooms en développement web</h2>
+            </div>            
+        </header>
+
+        <!-- Liens des onglets-->
+        <div class="onglet">
+            <button class="ongletLiens" onclick="openLink(event,  'Home')" id="defaultOpen">Home</button>
+            <button class="ongletLiens" onclick="openLink(event,  'Cours')">Cours</button>
+            <button class="ongletLiens" onclick="openLink(event,  'Contact')">Contact</button>
+        </div>
+
+        <!--Contenu des onglets-->
+        <div id="Home" class="contenuOnglet">
+            <h3>Home</h3>
+            <p><strong>Bienvenue !</strong></p> <!--Contenu de la page d'accueuil-->
+
+            <p>Ce site a été créé pour me présenter moi et mes compétences actuelles en matière de dévelopement web:</p>
+
+            <div class=clearfix>
+                <a href="https://fr.wikipedia.org/wiki/Brest"><img src="../outils/Brest0.png" alt="Brest" title="Regardez comme c'est beau !" class="image1" /></a>
+                <p><strong>Mini bio:</strong><br>Je m'appelle Alexis, j'ai 21 ans, je suis originaire de Brest et mon objectif est d'être développeur web (frontend)</p>
+            </div>
+            
+            <div class=clearfix>
+                <a href="https://www.steven-diai.fr/principaux-langages-de-programmation-a-connaitre"><img src="../outils/html-langage-programmation0.png" alt="imgHtml" class="image2"/></a>
+                <p><strong>Mon parcours:</strong><br>Après un baccalauréat ST2S je décidais de me tourner vers un BTS SIO. Très vite déçu par la formation et n'ayant 
+                plus l'envie de continuer dans le système scolaire classique. Je me tourne aujourd'hui vers le modèle de formation en solo & en entreprise
+                que propose OpenClassrooms, bien plus adaptée à mon mode de fonctionnement.</p>
+            </div>
+
+            <div class=clearfix>
+                <a href="https://espresso-jobs.com/conseils-carriere/quel-langage-de-programmation-choisir/"><img src="../outils/language_prog.jpg" alt="imgLang" class="image1"/></a>
+                <p><strong>Mes compétences</strong><br>Je pratique quotidiennement en HMTL5, CSS3 et JavaScript. J'ai de bonnes bases en C# et je possède quelques
+                connaissances en mySQL, Python, réseau etc provenant du BTS. Je travaille à la fois sur environnement Windows et Linux (Unbuntu). Je me sert également
+                d'un bon nombre de technologies succeptibles d'être utilisées en entreprise (Git/GitHub, Filezila, plusieurs logiciels de bureautiques etc)</p>
+            </div>
+                
+            <div class=clearfix>
+                <a href="https://openclassrooms.com/fr/"><img src="../outils/OpenClassrooms0.png" alt="imgOpen" class="image2"/></a>
+                <p><strong>Pour l'avenir</strong><br>Comme dit précedemment mon but est de devenir développeur web, spécialisé FrontEnd (à priori). C'est pourquoi
+                je cherche aujourd'hui une entreprise pour une formation OpenClassrooms en alternance d'une durée de 1 à 2 ans. Plusieurs formations sont possibles,
+                à voir selon les besoins. N'hésitez pas à me contacter pour avoir des renseignements sur le fonctionnement de leurs formations.</p>
+            </div>
+            </div>
+
+        <div id="Cours" class="contenuOnglet">
+            <h3>Cours</h3>
+            <p>Pour vous faire une idée, voici une liste de certains cours que j'ai suivi. A noter que seuls les cours OpenClassrooms sont ici:</p> <!--Contenu de la page Cours-->
+            <p><img src="../outils/captureCours.PNG" alt="captureCours" title=""/></p>
+            <p>Voici également le lien du contenu de chacun de ces cours:
+               <p><a href="https://openclassrooms.com/fr/courses/3306901-creez-des-pages-web-interactives-avec-javascript">Créez des pages webs interactives avec JS</a> En cours au moment de création de ce site.</p>
+               <p><a href="https://openclassrooms.com/fr/courses/1373056-apprenez-a-naviguer-en-securite-sur-internet">Sécurité sur Internet</a> Petit cours rapide très basique.</p>
+               <p><a href="https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript">Apprenez à coder avec JavaScript</a></p>
+               <p><a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">Créer un site web avec HTML5/CSS3</a></p>
+               <p><a href="https://openclassrooms.com/fr/courses/1946386-comprendre-le-web">Comprendre le web</a></p>
+               <p><a href="https://openclassrooms.com/fr/courses/3178966-apprendre-a-coder-pour-les-vrais-debutants">Le code pour les vrais débutants</a> Bases absolues de la programmation en C#, fais il y a 2-3 ans (avant le BTS)</p>
+            </p>
+        </div>
+
+        <div id="Contact" class="contenuOnglet">
+            <h3>Contact</h3>
+            <p>N'hésitez pas à me contacter si vous avez des questions ou une proposition :</p> <!--Contenu de la page Contact-->
+            <p><a href="https://www.linkedin.com/in/alexis-delattre-b43093147">LinkedIn</a></p>
+            <p>Téléphone:   06 86 94 15 21</p>
+            <p>Mail:  alexis.delattre99@gmail.com</p>
+            <p>GitHub: 4lexID</p>
+        </div>
+        </div>
+        <script>document.getElementById("defaultOpen").click();</script> <!--Page par défaut-->
+
+        <footer>
+            <p class="footer">Le code source de ce site est disponible sur mon compte GitHub à cette adresse :<a href="https://github.com/4lexID/Site-de-presentation"> https://github.com/4lexID/Site-de-presentation</a></p>
+        </footer>
+    </body>
+</html>
